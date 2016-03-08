@@ -13,10 +13,11 @@ public class PaisController {
 	
 	@RequestMapping("/allpais")
 	public List<Pais> getAllPais(){
-		List<Pais> p=new ArrayList<Pais>();
-		for(int i =0; i<10; i++){
-			
+		List<Pais> pais=new ArrayList<Pais>();
+		for(int i=0; i<10; i++){
+			Pais p=new Pais(String.valueOf(i),"pais"+1);
+			pais.add(p);
 		}
-		return null;
+		return pais;
 	}
 }
