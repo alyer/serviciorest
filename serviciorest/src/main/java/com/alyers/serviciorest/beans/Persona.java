@@ -14,6 +14,7 @@ public class Persona {
 	}
 	public String getAp_paterno() {
 		return ap_paterno;
+		//
 	}
 	public void setAp_paterno(String ap_paterno) {
 		this.ap_paterno = ap_paterno;
