@@ -10,6 +10,7 @@ public class Persona {
 	}
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+		//
 	}
 	public String getAp_paterno() {
 		return ap_paterno;
